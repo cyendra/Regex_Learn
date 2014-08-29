@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\common">
+      <UniqueIdentifier>{936b6e55-d41e-4596-8779-77813761dd26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\common">
+      <UniqueIdentifier>{41507d7b-8326-4f18-aa5c-04499908c972}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Collections">
+      <UniqueIdentifier>{2223bd4e-ad83-4f93-bc6c-11aee799d366}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Regex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RegexAutomaton.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RegexData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RegexExpression.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RegexParser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RegexPure.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RegexRich.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RegexWriter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Locale.cpp">
+      <Filter>源文件\common</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpUtility.cpp">
+      <Filter>源文件\common</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalStorage.cpp">
+      <Filter>源文件\common</Filter>
+    </ClCompile>
+    <ClCompile Include="Exception.cpp">
+      <Filter>源文件\common</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>源文件\common</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic.cpp">
+      <Filter>源文件\common</Filter>
+    </ClCompile>
+    <ClCompile Include="Threading.cpp">
+      <Filter>源文件\common</Filter>
+    </ClCompile>
+    <ClCompile Include="String.cpp">
+      <Filter>源文件\common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RegexWriter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RegexRich.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RegexPure.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RegexExpression.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RegexData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RegexAutomaton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Regex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Tuple.h">
+      <Filter>头文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="Threading.h">
+      <Filter>头文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="String.h">
+      <Filter>头文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="Pointer.h">
+      <Filter>头文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="Locale.h">
+      <Filter>头文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="Lazy.h">
+      <Filter>头文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpUtility.h">
+      <Filter>头文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalStorage.h">
+      <Filter>头文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.h">
+      <Filter>头文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.h">
+      <Filter>头文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>头文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>头文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic.h">
+      <Filter>头文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="Collections\Dictionary.h">
+      <Filter>头文件\Collections</Filter>
+    </ClInclude>
+    <ClInclude Include="Collections\Interfaces.h">
+      <Filter>头文件\Collections</Filter>
+    </ClInclude>
+    <ClInclude Include="Collections\List.h">
+      <Filter>头文件\Collections</Filter>
+    </ClInclude>
+    <ClInclude Include="Collections\Operation.h">
+      <Filter>头文件\Collections</Filter>
+    </ClInclude>
+    <ClInclude Include="Collections\OperationConcat.h">
+      <Filter>头文件\Collections</Filter>
+    </ClInclude>
+    <ClInclude Include="Collections\OperationCopyFrom.h">
+      <Filter>头文件\Collections</Filter>
+    </ClInclude>
+    <ClInclude Include="Collections\OperationEnumerable.h">
+      <Filter>头文件\Collections</Filter>
+    </ClInclude>
+    <ClInclude Include="Collections\OperationForEach.h">
+      <Filter>头文件\Collections</Filter>
+    </ClInclude>
+    <ClInclude Include="Collections\OperationPair.h">
+      <Filter>头文件\Collections</Filter>
+    </ClInclude>
+    <ClInclude Include="Collections\OperationSelect.h">
+      <Filter>头文件\Collections</Filter>
+    </ClInclude>
+    <ClInclude Include="Collections\OperationSequence.h">
+      <Filter>头文件\Collections</Filter>
+    </ClInclude>
+    <ClInclude Include="Collections\OperationSet.h">
+      <Filter>头文件\Collections</Filter>
+    </ClInclude>
+    <ClInclude Include="Collections\OperationString.h">
+      <Filter>头文件\Collections</Filter>
+    </ClInclude>
+    <ClInclude Include="Collections\OperationWhere.h">
+      <Filter>头文件\Collections</Filter>
+    </ClInclude>
+    <ClInclude Include="Collections\Pair.h">
+      <Filter>头文件\Collections</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

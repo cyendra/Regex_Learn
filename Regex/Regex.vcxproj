@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{14E811C2-6CF0-4744-B4D2-C0A6DAFBB045}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Regex</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Basic.cpp" />
+    <ClCompile Include="Console.cpp" />
+    <ClCompile Include="Exception.cpp" />
+    <ClCompile Include="GlobalStorage.cpp" />
+    <ClCompile Include="HttpUtility.cpp" />
+    <ClCompile Include="Locale.cpp" />
+    <ClCompile Include="Regex.cpp" />
+    <ClCompile Include="RegexAutomaton.cpp" />
+    <ClCompile Include="RegexData.cpp" />
+    <ClCompile Include="RegexExpression.cpp" />
+    <ClCompile Include="RegexParser.cpp" />
+    <ClCompile Include="RegexPure.cpp" />
+    <ClCompile Include="RegexRich.cpp" />
+    <ClCompile Include="RegexWriter.cpp" />
+    <ClCompile Include="String.cpp" />
+    <ClCompile Include="Threading.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Basic.h" />
+    <ClInclude Include="Collections\Dictionary.h" />
+    <ClInclude Include="Collections\Interfaces.h" />
+    <ClInclude Include="Collections\List.h" />
+    <ClInclude Include="Collections\Operation.h" />
+    <ClInclude Include="Collections\OperationConcat.h" />
+    <ClInclude Include="Collections\OperationCopyFrom.h" />
+    <ClInclude Include="Collections\OperationEnumerable.h" />
+    <ClInclude Include="Collections\OperationForEach.h" />
+    <ClInclude Include="Collections\OperationPair.h" />
+    <ClInclude Include="Collections\OperationSelect.h" />
+    <ClInclude Include="Collections\OperationSequence.h" />
+    <ClInclude Include="Collections\OperationSet.h" />
+    <ClInclude Include="Collections\OperationString.h" />
+    <ClInclude Include="Collections\OperationWhere.h" />
+    <ClInclude Include="Collections\Pair.h" />
+    <ClInclude Include="Console.h" />
+    <ClInclude Include="Event.h" />
+    <ClInclude Include="Exception.h" />
+    <ClInclude Include="Function.h" />
+    <ClInclude Include="GlobalStorage.h" />
+    <ClInclude Include="HttpUtility.h" />
+    <ClInclude Include="Lazy.h" />
+    <ClInclude Include="Locale.h" />
+    <ClInclude Include="Pointer.h" />
+    <ClInclude Include="Regex.h" />
+    <ClInclude Include="RegexAutomaton.h" />
+    <ClInclude Include="RegexData.h" />
+    <ClInclude Include="RegexExpression.h" />
+    <ClInclude Include="RegexPure.h" />
+    <ClInclude Include="RegexRich.h" />
+    <ClInclude Include="RegexWriter.h" />
+    <ClInclude Include="String.h" />
+    <ClInclude Include="Threading.h" />
+    <ClInclude Include="Tuple.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

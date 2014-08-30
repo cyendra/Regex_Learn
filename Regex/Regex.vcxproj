@@ -84,6 +84,7 @@
     <ClCompile Include="GlobalStorage.cpp" />
     <ClCompile Include="HttpUtility.cpp" />
     <ClCompile Include="Locale.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="Regex.cpp" />
     <ClCompile Include="RegexAutomaton.cpp" />
     <ClCompile Include="RegexData.cpp" />
@@ -131,6 +132,9 @@
     <ClInclude Include="String.h" />
     <ClInclude Include="Threading.h" />
     <ClInclude Include="Tuple.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

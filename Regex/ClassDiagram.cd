@@ -1,0 +1,1635 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="vl::regex::RegexTokenEnumerator" Collapsed="true">
+    <Position X="69" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgEAAAIAAAAgBAAgAAiAAQAAAAAAAAABAAEAoAERAJA=</HashCode>
+      <FileName>Regex.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex::RegexString" Collapsed="true">
+    <Position X="28.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACACAAAAAgAEAAAQBAAAAAACAAAAAgAAAAAAA=</HashCode>
+      <FileName>Regex.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex::RegexMatch" Collapsed="true">
+    <Position X="45.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QACAAEAAAAAAAAAABAAAAAQAAgAAAAIAAgAAAAIAAAA=</HashCode>
+      <FileName>Regex.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex::Regex" Collapsed="true">
+    <Position X="48.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAgAAAAAABAAIAoAAAAEBQAAAAAAQAAAASAEgAAA=</HashCode>
+      <FileName>Regex.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex::RegexToken" Collapsed="true">
+    <Position X="144" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAgAAAgQEgAAQAAAAAAACAhAAAAAAAAAIA=</HashCode>
+      <FileName>Regex.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex::RegexTokens" Collapsed="true">
+    <Position X="72.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQIAAAAgAAAAAAAAAQAAKAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Regex.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex::RegexLexer" Collapsed="true">
+    <Position X="45.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAIAAAgAAAAAAAAAAAAAAAAAIAAAAAAAAAEAAhA=</HashCode>
+      <FileName>Regex.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex::RegexLexerWalker" Collapsed="true">
+    <Position X="37.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAEAAARAAAAAAAACAACAIAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Regex.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex::RegexLexerColorizer" Collapsed="true">
+    <Position X="42" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQABAACIAAAAAUCAAIAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Regex.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex::RegexNode" Collapsed="true">
+    <Position X="53.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAACAIAAAAAAAAAAAAACAAgBAAAAAAAAAgAAAACAA=</HashCode>
+      <FileName>RegexWriter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex_internal::IsEqualAlgorithm" Collapsed="true">
+    <Position X="60.5" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RegexExpression.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex_internal::HasNoExtensionAlgorithm" Collapsed="true">
+    <Position X="62.75" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RegexExpression.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex_internal::CanTreatAsPureAlgorithm" Collapsed="true">
+    <Position X="65" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RegexExpression.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex_internal::NormalizedCharSet" Collapsed="true">
+    <Position X="151" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RegexExpression.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex_internal::CharSetAlgorithm" Collapsed="true">
+    <Position X="68.5" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIABAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RegexExpression.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex_internal::BuildNormalizedCharSetAlgorithm" Collapsed="true">
+    <Position X="69.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RegexExpression.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex_internal::SetNormalizedCharSetAlgorithm" Collapsed="true">
+    <Position X="67.25" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RegexExpression.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex_internal::MergeParameter" Collapsed="true">
+    <Position X="149.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RegexExpression.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex_internal::MergeAlgorithm" Collapsed="true">
+    <Position X="56" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RegexExpression.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex_internal::EpsilonNfaInfo" Collapsed="true">
+    <Position X="151" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RegexExpression.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex_internal::EpsilonNfa" Collapsed="true">
+    <Position X="149.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAACAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RegexExpression.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex_internal::EpsilonNfaAlgorithm" Collapsed="true">
+    <Position X="58.25" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RegexExpression.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex_internal::SaverBase" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RegexRich.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex_internal::StateSaver" Collapsed="true">
+    <Position X="149.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAQgAAAIAAAQQAAAgAIAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>RegexRich.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex_internal::ExtensionSaver" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAIA=</HashCode>
+      <FileName>RegexRich.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex_internal::PureResult" Collapsed="true">
+    <Position X="142.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAEAAAAABAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>RegexPure.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex_internal::PureInterpretor" Collapsed="true">
+    <Position X="61.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAiQAAAAAAgAwIJAAAAIDAIAEAAAAQAAAAgAAAgA=</HashCode>
+      <FileName>RegexPure.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex_internal::RichResult" Collapsed="true">
+    <Position X="145.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAEAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>RegexRich.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex_internal::RichInterpretor" Collapsed="true">
+    <Position X="82.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAEAAIAAAAAAAAAAAAAABCAAAAEAABA=</HashCode>
+      <FileName>RegexRich.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex_internal::State" Collapsed="true">
+    <Position X="147.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAAAAg=</HashCode>
+      <FileName>RegexAutomaton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex_internal::Transition" Collapsed="true">
+    <Position X="151" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAIAIAAAAAAAAAABEAAAAAAAAAABAAA=</HashCode>
+      <FileName>RegexAutomaton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex_internal::Automaton" Collapsed="true">
+    <Position X="138.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAkIABAAAAHgAAQAABAAAAAKAAQAAUAAAAAAAACQg=</HashCode>
+      <FileName>RegexAutomaton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex_internal::CharRange" Collapsed="true">
+    <Position X="142.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAEAAAQAQAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>RegexData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex_internal::IRegexExpressionAlgorithm" Collapsed="true">
+    <Position X="104.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RegexExpression.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex_internal::Expression" Collapsed="true">
+    <Position X="42.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAABAAAAAAAQAAAAAAAAAQAAAIAAAAECAAEAA=</HashCode>
+      <FileName>RegexExpression.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex_internal::CharSetExpression" Collapsed="true">
+    <Position X="31" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAIABAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>RegexExpression.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex_internal::LoopExpression" Collapsed="true">
+    <Position X="33.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAgBAQAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RegexExpression.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex_internal::SequenceExpression" Collapsed="true">
+    <Position X="35.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>RegexExpression.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex_internal::AlternateExpression" Collapsed="true">
+    <Position X="28.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>RegexExpression.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex_internal::BeginExpression" Collapsed="true">
+    <Position X="26" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RegexExpression.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex_internal::EndExpression" Collapsed="true">
+    <Position X="54.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RegexExpression.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex_internal::CaptureExpression" Collapsed="true">
+    <Position X="56.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAABAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RegexExpression.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex_internal::MatchExpression" Collapsed="true">
+    <Position X="58.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAEAAAAAAAAAAABAAA=</HashCode>
+      <FileName>RegexExpression.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex_internal::PositiveExpression" Collapsed="true">
+    <Position X="23" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RegexExpression.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex_internal::NegativeExpression" Collapsed="true">
+    <Position X="81.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RegexExpression.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex_internal::UsingExpression" Collapsed="true">
+    <Position X="83.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RegexExpression.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex_internal::RegexExpression" Collapsed="true">
+    <Position X="51.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEABAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>RegexExpression.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex_internal::RegexExpressionAlgorithm&lt;ReturnType, ParameterType&gt;" Collapsed="true">
+    <Position X="62.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAhAIAAQAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>RegexExpression.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex_internal::RegexExpressionAlgorithm&lt;void, ParameterType&gt;" Collapsed="true">
+    <Position X="62.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAIAAQAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>RegexExpression.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::regex_internal::CaptureRecord" Collapsed="true">
+    <Position X="140.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAEAAAQAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RegexRich.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::GlobalStorageManager" Collapsed="true">
+    <Position X="144" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GlobalStorage.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::TupleNullItem" Collapsed="true">
+    <Position X="138.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tuple.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::Tuple&lt;T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10&gt;" Collapsed="true">
+    <Position X="152.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tuple.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::Tuple&lt;T0&gt;" Collapsed="true">
+    <Position X="44.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAQAQAAAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>Tuple.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::Tuple&lt;T0, T1&gt;" Collapsed="true">
+    <Position X="59.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAQAQAAAAAAAAAABgAgAAAAA=</HashCode>
+      <FileName>Tuple.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::Tuple&lt;T0, T1, T2&gt;" Collapsed="true">
+    <Position X="64" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAQAQAAAABAAAAABgAgAAAAA=</HashCode>
+      <FileName>Tuple.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::Tuple&lt;T0, T1, T2, T3&gt;" Collapsed="true">
+    <Position X="74.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAQAQAAAABAAAAABgAgAAAgA=</HashCode>
+      <FileName>Tuple.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::Tuple&lt;T0, T1, T2, T3, T4&gt;" Collapsed="true">
+    <Position X="85" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEABAAAAAAAAAAAAAAAAQAQAAAABAAAAABgAgAAAgA=</HashCode>
+      <FileName>Tuple.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::Tuple&lt;T0, T1, T2, T3, T4, T5&gt;" Collapsed="true">
+    <Position X="89.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEABAAAAAAAAAAAAAAAAQAQCAAABAAAAABgAgAAAgA=</HashCode>
+      <FileName>Tuple.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::Tuple&lt;T0, T1, T2, T3, T4, T5, T6&gt;" Collapsed="true">
+    <Position X="91.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEABAAAAAAAAAAAAAAAAQAQCAAABAAABABgAgAAAgA=</HashCode>
+      <FileName>Tuple.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::Tuple&lt;T0, T1, T2, T3, T4, T5, T6, T7&gt;" Collapsed="true">
+    <Position X="94" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEABAAAAAAAAAAAAAAAAQAQCAAIBAAABABgAgAAAgA=</HashCode>
+      <FileName>Tuple.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::Tuple&lt;T0, T1, T2, T3, T4, T5, T6, T7, T8&gt;" Collapsed="true">
+    <Position X="24" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEABAAAAAAAEAAAAAAAAQAQCAAIBAAABABgAgAAAgA=</HashCode>
+      <FileName>Tuple.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::Tuple&lt;T0, T1, T2, T3, T4, T5, T6, T7, T8, T9&gt;" Collapsed="true">
+    <Position X="30.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEABAAAAAAAEAAAAAAAAQAQCAAIBAIABABgAgAAAgA=</HashCode>
+      <FileName>Tuple.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::WaitableObject" Collapsed="true">
+    <Position X="48.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAEAAAAACgAAAQCAAAQAAAIAQAAAAAAAAAE=</HashCode>
+      <FileName>Threading.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::Thread" Collapsed="true">
+    <Position X="19" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAgIECAASkAAAAAAAAAAAAABAAAAAAQIAAAAAgAAAI=</HashCode>
+      <FileName>Threading.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::Mutex" Collapsed="true">
+    <Position X="16.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAABAAAAEAAAAAgABAAAQA=</HashCode>
+      <FileName>Threading.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::Semaphore" Collapsed="true">
+    <Position X="86.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAACAAAAAABEAAAEAAAAAAABAAAAA=</HashCode>
+      <FileName>Threading.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::EventObject" Collapsed="true">
+    <Position X="88.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAEQAAAAIAAAAAAAAAAABAIAAACAAAAAAAAIAAA=</HashCode>
+      <FileName>Threading.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::ThreadPoolLite" Collapsed="true">
+    <Position X="39.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAQAAAAAAAAAQAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Threading.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::CriticalSection" Collapsed="true">
+    <Position X="42.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgIAAAAAAAAAAAAAAAAAQAABAEEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Threading.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::ConditionVariable" Collapsed="true">
+    <Position X="48.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAgAAgAAEAAAAAAABAAAJgAEAAAACAAABAA=</HashCode>
+      <FileName>Threading.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::ReaderWriterLock" Collapsed="true">
+    <Position X="51.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAEAAAAAAAAAIAAAABCAAAAABAAAAAAACgBA=</HashCode>
+      <FileName>Threading.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::SpinLock" Collapsed="true">
+    <Position X="39.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAABAAAAAAAAAgAQAAAAEEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Threading.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::RepeatingTaskExecutor&lt;T&gt;" Collapsed="true">
+    <Position X="87.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAgAAAAQBAAAAUAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Threading.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::ObjectString&lt;T&gt;" Collapsed="true">
+    <Position X="21" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAEAAAAAAAAigAEIBBQBAAAMACAEACADwAAAAQCQ=</HashCode>
+      <FileName>String.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::Ptr&lt;T&gt;" Collapsed="true">
+    <Position X="140.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAgACEACAAAwAAQQAQBAEAAAAgAAAABCA=</HashCode>
+      <FileName>Pointer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::ComPtr&lt;T&gt;" Collapsed="true">
+    <Position X="145.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgBCEACAAAwBAAQAAAAEAAAAgAAAAACA=</HashCode>
+      <FileName>Pointer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::Locale" Collapsed="true">
+    <Position X="33" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgCoAAQAAAQgIAEAEEAIAaEGwCBCAAgMAgFggOCABIA=</HashCode>
+      <FileName>Locale.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::Lazy&lt;T&gt;" Collapsed="true">
+    <Position X="35.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAgAAEAAgAIAAAAA=</HashCode>
+      <FileName>Lazy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::HttpRequest" Collapsed="true">
+    <Position X="145.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAIAACIAAAACAAEAAAAAEAAQAIABgAAAAoAgAAAAI=</HashCode>
+      <FileName>HttpUtility.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::HttpResponse" Collapsed="true">
+    <Position X="147.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAIAACEAAAA=</HashCode>
+      <FileName>HttpUtility.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::GlobalStorage" Collapsed="true">
+    <Position X="39.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAACAAQAAAAAAAAAAAAAAAAAAQAAAAEAAA=</HashCode>
+      <FileName>GlobalStorage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::Func&lt;T&gt;" Collapsed="true">
+    <Position X="142.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Function.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::Exception" Collapsed="true">
+    <Position X="78.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAIAAAACA=</HashCode>
+      <FileName>Exception.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::ArgumentException" Collapsed="true">
+    <Position X="77" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAiAAAAAAAAAEAAAAAAAgAAAABAA=</HashCode>
+      <FileName>Exception.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::ParsingException" Collapsed="true">
+    <Position X="79.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAQAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exception.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::Event&lt;T&gt;" Collapsed="true">
+    <Position X="138.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Event.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::EventHandler" Collapsed="true">
+    <Position X="96.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Event.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::NotCopyable" Collapsed="true">
+    <Position X="69.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::Error" Collapsed="true">
+    <Position X="152.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAQAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::Object" Collapsed="true">
+    <Position X="21" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::ObjectBox&lt;T&gt;" Collapsed="true">
+    <Position X="26.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAABAEAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::Nullable&lt;T&gt;" Collapsed="true">
+    <Position X="152.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAEgIAQAQAAAAAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::Interface" Collapsed="true">
+    <Position X="117" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::threading_internal::ProceduredThread" Collapsed="true">
+    <Position X="17.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAgAAAAAAAAAAAAQAY=</HashCode>
+      <FileName>Threading.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::threading_internal::LambdaThread" Collapsed="true">
+    <Position X="20" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAIAAAAAAAAAAAAAAAAAAAQAI=</HashCode>
+      <FileName>Threading.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::internal_invokers::Invoker&lt;R, ...TArgs&gt;" Collapsed="true">
+    <Position X="56.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Function.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::internal_invokers::StaticInvoker&lt;R, ...TArgs&gt;" Collapsed="true">
+    <Position X="54.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAgAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Function.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::internal_invokers::MemberInvoker&lt;C, R, ...TArgs&gt;" Collapsed="true">
+    <Position X="56.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAQAAAAIAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Function.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::internal_invokers::ObjectInvoker&lt;C, R, ...TArgs&gt;" Collapsed="true">
+    <Position X="59" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAgAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Function.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::function_combining::Combining&lt;A, B, C&gt;" Collapsed="true">
+    <Position X="144" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Function.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::console::Console" Collapsed="true">
+    <Position X="147.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAIAAAAAAAgAAAAAAAAAAgAAAEAAAA=</HashCode>
+      <FileName>Console.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::collections::Dictionary&lt;KT, VT, KK, VK&gt;" Collapsed="true">
+    <Position X="78.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAQAAAAAIBABACAAAFAQAAAEABCAAAAAgAABAAAA=</HashCode>
+      <FileName>Collections\Dictionary.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::collections::Group&lt;KT, VT, KK, VK&gt;" Collapsed="true">
+    <Position X="78.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAUAAAAAIAABCCAAABAQAAAEAACACAAAAAABQAAA=</HashCode>
+      <FileName>Collections\Dictionary.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::collections::IEnumerator&lt;T&gt;" Collapsed="true">
+    <Position X="117" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAABAAAAACAAgAAAAAAAAAAAAEAAAAAABA=</HashCode>
+      <FileName>Collections\Interfaces.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::collections::IEnumerable&lt;T&gt;" Collapsed="true">
+    <Position X="129.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections\Interfaces.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::collections::ListStore&lt;T, PODType&gt;" Collapsed="true">
+    <Position X="136.25" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections\List.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::collections::ListStore&lt;T, false&gt;" Collapsed="true">
+    <Position X="66.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections\List.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::collections::ListStore&lt;T, true&gt;" Collapsed="true">
+    <Position X="80.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections\List.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::collections::ArrayBase&lt;T&gt;" Collapsed="true">
+    <Position X="129.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAABABAgAAAQAAAEAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Collections\List.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::collections::ListBase&lt;T, K&gt;" Collapsed="true">
+    <Position X="128.25" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAICEBAAAAAAAAACCAAAAIBAgAE=</HashCode>
+      <FileName>Collections\List.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::collections::Array&lt;T, K&gt;" Collapsed="true">
+    <Position X="131.5" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAADAAAAAAAAAAAAAFAAEBAAAAAAAEQAAA=</HashCode>
+      <FileName>Collections\List.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::collections::List&lt;T, K&gt;" Collapsed="true">
+    <Position X="129.25" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEIAAEAAAAAABAAAAAAABAAAAAEAAAAAAAAAAAAQAAI=</HashCode>
+      <FileName>Collections\List.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::collections::SortedList&lt;T, K&gt;" Collapsed="true">
+    <Position X="127" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEIAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Collections\List.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::collections::PushOnlyAllocator&lt;T&gt;" Collapsed="true">
+    <Position X="45.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAgAAQEAAIAAAAgAABAA=</HashCode>
+      <FileName>Collections\List.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::collections::ByteObjectMap&lt;T&gt;" Collapsed="true">
+    <Position X="42.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAABABAAAAgAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Collections\List.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::collections::LazyList&lt;T&gt;" Collapsed="true">
+    <Position X="75.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CIAAAUAEAAEAAAAAAAgAAAAAAAEAACAAIAAgQACAAAA=</HashCode>
+      <FileName>Collections\Operation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::collections::ConcatEnumerator&lt;T&gt;" Collapsed="true">
+    <Position X="115.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAABAAAAACAAkAAAAAEACAAAgEAAAABABE=</HashCode>
+      <FileName>Collections\OperationConcat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::collections::EmptyEnumerable&lt;T&gt;" Collapsed="true">
+    <Position X="72.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections\OperationEnumerable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::collections::RangeEnumerator&lt;T&gt;" Collapsed="true">
+    <Position X="69" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAEAAAAAAABAAgBACAAgAAgAAAAAAAAAEAAAAAABA=</HashCode>
+      <FileName>Collections\OperationEnumerable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::collections::ContainerEnumerator&lt;T, TContainer&gt;" Collapsed="true">
+    <Position X="66" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BgAAEAAAAAAABAAAAACAAgAAAAAAAAAAAAEAAAABABA=</HashCode>
+      <FileName>Collections\OperationEnumerable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::collections::ForEachIterator&lt;T&gt;" Collapsed="true">
+    <Position X="72.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections\OperationForEach.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::collections::EnumerableForEachIterator&lt;T&gt;" Collapsed="true">
+    <Position X="72.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections\OperationForEach.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::collections::PairwiseEnumerator&lt;S, T&gt;" Collapsed="true">
+    <Position X="127" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAABAAAAACAgkAAgAAAACAAAAMAAAAAABA=</HashCode>
+      <FileName>Collections\OperationPair.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::collections::SelectEnumerator&lt;T, K&gt;" Collapsed="true">
+    <Position X="129.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwAIAACAAAAABAAAAACAAAAQgAAAAAAAAAEAAAAAABA=</HashCode>
+      <FileName>Collections\OperationSelect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::collections::TakeEnumerator&lt;T&gt;" Collapsed="true">
+    <Position X="131.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwAAAAAAAAAABAAABACAAgAAAAAAAAAAAAMACAAAABA=</HashCode>
+      <FileName>Collections\OperationSequence.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::collections::SkipEnumerator&lt;T&gt;" Collapsed="true">
+    <Position X="133.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwGAAAAAAAAABAAABACAAgAgAAAAAAAAAAEAAAAAABA=</HashCode>
+      <FileName>Collections\OperationSequence.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::collections::RepeatEnumerator&lt;T&gt;" Collapsed="true">
+    <Position X="109" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwAAAAIAABAABAAABACAAgAAABAAAAAAAAEAAAABABA=</HashCode>
+      <FileName>Collections\OperationSequence.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::collections::DistinctEnumerator&lt;T&gt;" Collapsed="true">
+    <Position X="111.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwAAAAAIAAAAFAAAAACAAAAAAAQAAAAAAAEAAAAAQBA=</HashCode>
+      <FileName>Collections\OperationSequence.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::collections::ReverseEnumerator&lt;T&gt;" Collapsed="true">
+    <Position X="113.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EiAAAAAAAAAABBAAAACAAgAAAAAAAAAAAAEAAAABABA=</HashCode>
+      <FileName>Collections\OperationSequence.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::collections::FromIteratorEnumerable&lt;T, I&gt;" Collapsed="true">
+    <Position X="75.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQACAAAAAAAAAAAAAAAQAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections\OperationSequence.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::collections::FromIterator&lt;T&gt;" Collapsed="true">
+    <Position X="140.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections\OperationSequence.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::collections::IntersectExceptEnumerator&lt;T, Intersect&gt;" Collapsed="true">
+    <Position X="118" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwAAAAABAAAAhAAAAACAAAAAAAAAAEAAAAEAAAABABA=</HashCode>
+      <FileName>Collections\OperationSet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::collections::WhereEnumerator&lt;T&gt;" Collapsed="true">
+    <Position X="122.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwAAAACAAIAABAAAAQCAAAAAAAAAAAAAAAEAAAABABA=</HashCode>
+      <FileName>Collections\OperationWhere.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vl::collections::Pair&lt;K, V&gt;" Collapsed="true">
+    <Position X="138.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAQAAAAEAQAAAAAAACAAAAAgAAAAAAA=</HashCode>
+      <FileName>Collections\Pair.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="vl::POD&lt;regex_internal::StateSaver&gt;" Collapsed="true">
+    <Position X="140.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RegexRich.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::BufferPair" Collapsed="true">
+    <Position X="151" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAQAAAAAAAAACAABAAAAAAAA=</HashCode>
+      <FileName>HttpUtility.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::ThreadPoolQueueProcArgument" Collapsed="true">
+    <Position X="142.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Threading.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::ReferenceCounterOperator&lt;T, Enabled&gt;" Collapsed="true">
+    <Position X="144" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pointer.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::KeyType&lt;Ptr&lt;T&gt;&gt;" Collapsed="true">
+    <Position X="147.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Pointer.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::POD&lt;Ptr&lt;T&gt;&gt;" Collapsed="true">
+    <Position X="138.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pointer.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::KeyType&lt;ComPtr&lt;T&gt;&gt;" Collapsed="true">
+    <Position X="145.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Pointer.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::POD&lt;ComPtr&lt;T&gt;&gt;" Collapsed="true">
+    <Position X="152.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pointer.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::RemoveReference&lt;T&gt;" Collapsed="true">
+    <Position X="145.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::RemoveReference&lt;T&amp;&gt;" Collapsed="true">
+    <Position X="144" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::RemoveReference&lt;T&amp;&amp;&gt;" Collapsed="true">
+    <Position X="142.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::RemoveConst&lt;T&gt;" Collapsed="true">
+    <Position X="147.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::RemoveConst&lt;const T&gt;" Collapsed="true">
+    <Position X="145.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::RemoveVolatile&lt;T&gt;" Collapsed="true">
+    <Position X="147.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::RemoveVolatile&lt;volatile T&gt;" Collapsed="true">
+    <Position X="149.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::RemoveCVR&lt;T&gt;" Collapsed="true">
+    <Position X="149.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::RemoveCVR&lt;T&amp;&gt;" Collapsed="true">
+    <Position X="151" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::RemoveCVR&lt;T&amp;&amp;&gt;" Collapsed="true">
+    <Position X="152.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::RemoveCVR&lt;const T&gt;" Collapsed="true">
+    <Position X="138.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::RemoveCVR&lt;volatile T&gt;" Collapsed="true">
+    <Position X="140.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::TypeTuple&lt;...TArgs&gt;" Collapsed="true">
+    <Position X="145.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::KeyType&lt;T&gt;" Collapsed="true">
+    <Position X="144" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::POD&lt;T&gt;" Collapsed="true">
+    <Position X="140.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::POD&lt;bool&gt;" Collapsed="true">
+    <Position X="142.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::POD&lt;vint8_t&gt;" Collapsed="true">
+    <Position X="145.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::POD&lt;vuint8_t&gt;" Collapsed="true">
+    <Position X="144" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::POD&lt;vint16_t&gt;" Collapsed="true">
+    <Position X="140.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::POD&lt;vuint16_t&gt;" Collapsed="true">
+    <Position X="147.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::POD&lt;vint32_t&gt;" Collapsed="true">
+    <Position X="149.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::POD&lt;vuint32_t&gt;" Collapsed="true">
+    <Position X="151" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::POD&lt;vint64_t&gt;" Collapsed="true">
+    <Position X="152.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::POD&lt;vuint64_t&gt;" Collapsed="true">
+    <Position X="138.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::POD&lt;char&gt;" Collapsed="true">
+    <Position X="151" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::POD&lt;wchar_t&gt;" Collapsed="true">
+    <Position X="142.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::POD&lt;T*&gt;" Collapsed="true">
+    <Position X="147.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::POD&lt;T&amp;&gt;" Collapsed="true">
+    <Position X="144" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::POD&lt;T[_Size]&gt;" Collapsed="true">
+    <Position X="152.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::POD&lt;const T&gt;" Collapsed="true">
+    <Position X="138.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::POD&lt;volatile T&gt;" Collapsed="true">
+    <Position X="149.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::POD&lt;const volatile T&gt;" Collapsed="true">
+    <Position X="145.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::DateTime" Collapsed="true">
+    <Position X="140.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEkAICABAIAAAAAAgCAAQAAAAUBAAUAAAAiBBAAAAI=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::YesType" Collapsed="true">
+    <Position X="147.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::NoType" Collapsed="true">
+    <Position X="151" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::AcceptType&lt;T, YesOrNo&gt;" Collapsed="true">
+    <Position X="138.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::AcceptType&lt;T, YesType&gt;" Collapsed="true">
+    <Position X="140.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::AcceptValue&lt;YesOrNo&gt;" Collapsed="true">
+    <Position X="142.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::AcceptValue&lt;YesType&gt;" Collapsed="true">
+    <Position X="144" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::RequiresConvertable&lt;TFrom, TTo&gt;" Collapsed="true">
+    <Position X="151" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::POD&lt;collections::Pair&lt;K, V&gt;&gt;" Collapsed="true">
+    <Position X="142.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections\Pair.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::threading_internal::WaitableData" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Threading.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::threading_internal::ThreadData" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Threading.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::threading_internal::MutexData" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Threading.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::threading_internal::SemaphoreData" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Threading.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::threading_internal::EventData" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Threading.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::threading_internal::CriticalSectionData" Collapsed="true">
+    <Position X="138.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Threading.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::threading_internal::ReaderWriterLockData" Collapsed="true">
+    <Position X="142.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Threading.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::threading_internal::ConditionVariableData" Collapsed="true">
+    <Position X="152.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Threading.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::function_lambda::LambdaRetriveType&lt;T&gt;" Collapsed="true">
+    <Position X="149.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Function.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::function_lambda::FunctionObjectRetriveType&lt;T&gt;" Collapsed="true">
+    <Position X="142.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Function.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::function_binding::Binding&lt;T&gt;" Collapsed="true">
+    <Position X="149.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Function.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::function_binding::CR&lt;T&gt;" Collapsed="true">
+    <Position X="147.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Function.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::function_binding::CR&lt;T&amp;&gt;" Collapsed="true">
+    <Position X="149.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Function.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::function_binding::CR&lt;const T&gt;" Collapsed="true">
+    <Position X="151" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Function.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::function_binding::CR&lt;const T&amp;&gt;" Collapsed="true">
+    <Position X="152.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Function.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::collections::SortedListOperations&lt;T&gt;" Collapsed="true">
+    <Position X="138.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Collections\OperationEnumerable.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::collections::SortedListOperations&lt;Ptr&lt;T&gt;&gt;" Collapsed="true">
+    <Position X="140.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Collections\OperationEnumerable.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::collections::randomaccess_internal::RandomAccessable&lt;Dictionary&lt;KT, VT, KK, VK&gt;&gt;" Collapsed="true">
+    <Position X="152.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Collections\Dictionary.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::collections::randomaccess_internal::RandomAccess&lt;Dictionary&lt;KT, VT, KK, VK&gt;&gt;" Collapsed="true">
+    <Position X="145.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Collections\Dictionary.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::collections::randomaccess_internal::RandomAccessable&lt;T&gt;" Collapsed="true">
+    <Position X="151" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Collections\Interfaces.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::collections::randomaccess_internal::RandomAccess&lt;T&gt;" Collapsed="true">
+    <Position X="144" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAIAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAGA=</HashCode>
+      <FileName>Collections\Interfaces.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::collections::randomaccess_internal::RandomAccessable&lt;Array&lt;T, K&gt;&gt;" Collapsed="true">
+    <Position X="147.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Collections\List.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::collections::randomaccess_internal::RandomAccessable&lt;List&lt;T, K&gt;&gt;" Collapsed="true">
+    <Position X="140.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Collections\List.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::collections::randomaccess_internal::RandomAccessable&lt;SortedList&lt;T, K&gt;&gt;" Collapsed="true">
+    <Position X="138.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Collections\List.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::collections::randomaccess_internal::RandomAccessable&lt;copyfrom_internal::Slice&lt;T&gt;&gt;" Collapsed="true">
+    <Position X="149.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Collections\OperationCopyFrom.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::collections::bom_helper::TreeNode" Collapsed="true">
+    <Position X="144" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Collections\List.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::collections::bom_helper::Accessor&lt;Index&gt;" Collapsed="true">
+    <Position X="147.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections\List.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::collections::bom_helper::Accessor&lt;0&gt;" Collapsed="true">
+    <Position X="145.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections\List.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::collections::copyfrom_internal::CopyFromAlgorithm&lt;Ds, Ss, DsRA, SsRA&gt;" Collapsed="true">
+    <Position X="145.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections\OperationCopyFrom.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::collections::copyfrom_internal::CopyFromAlgorithm&lt;Ds, Ss, true, true&gt;" Collapsed="true">
+    <Position X="144" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections\OperationCopyFrom.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::collections::copyfrom_internal::CopyFromAlgorithm&lt;Ds, Ss, false, true&gt;" Collapsed="true">
+    <Position X="142.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections\OperationCopyFrom.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::collections::copyfrom_internal::CopyFromAlgorithm&lt;Ds, Ss, true, false&gt;" Collapsed="true">
+    <Position X="140.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections\OperationCopyFrom.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::collections::copyfrom_internal::CopyFromAlgorithm&lt;Ds, Ss, false, false&gt;" Collapsed="true">
+    <Position X="138.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections\OperationCopyFrom.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vl::collections::copyfrom_internal::Slice&lt;T&gt;" Collapsed="true">
+    <Position X="152.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections\OperationCopyFrom.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="vl::LockedInt" Collapsed="true">
+    <Position X="138.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Threading.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vl::AString" Collapsed="true">
+    <Position X="18" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>String.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vl::WString" Collapsed="true">
+    <Position X="21" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>String.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vl::vint8_t" Collapsed="true">
+    <Position X="144" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vl::vuint8_t" Collapsed="true">
+    <Position X="149.25" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vl::vint16_t" Collapsed="true">
+    <Position X="140.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vl::vuint16_t" Collapsed="true">
+    <Position X="145.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vl::vint32_t" Collapsed="true">
+    <Position X="142.25" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vl::vuint32_t" Collapsed="true">
+    <Position X="147.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vl::vint64_t" Collapsed="true">
+    <Position X="4.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vl::vuint64_t" Collapsed="true">
+    <Position X="8.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vl::vint" Collapsed="true">
+    <Position X="1.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vl::vsint" Collapsed="true">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vl::vuint" Collapsed="true">
+    <Position X="8.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vl::pos_t" Collapsed="true">
+    <Position X="4.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

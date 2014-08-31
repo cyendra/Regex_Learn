@@ -22,6 +22,9 @@
     <Filter Include="头文件\Collections">
       <UniqueIdentifier>{2223bd4e-ad83-4f93-bc6c-11aee799d366}</UniqueIdentifier>
     </Filter>
+    <Filter Include="My">
+      <UniqueIdentifier>{1067c1a1-f234-4693-9aa5-16f4df6b5077}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Regex.cpp">
@@ -74,6 +77,12 @@
     </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="My\RegexData.cpp">
+      <Filter>My</Filter>
+    </ClCompile>
+    <ClCompile Include="My\RegexAutomaton.cpp">
+      <Filter>My</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -181,6 +190,15 @@
     </ClInclude>
     <ClInclude Include="Collections\Pair.h">
       <Filter>头文件\Collections</Filter>
+    </ClInclude>
+    <ClInclude Include="My\Regex.h">
+      <Filter>My</Filter>
+    </ClInclude>
+    <ClInclude Include="My\RegexData.h">
+      <Filter>My</Filter>
+    </ClInclude>
+    <ClInclude Include="My\RegexAutomaton.h">
+      <Filter>My</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -85,6 +85,8 @@
     <ClCompile Include="HttpUtility.cpp" />
     <ClCompile Include="Locale.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="My\RegexAutomaton.cpp" />
+    <ClCompile Include="My\RegexData.cpp" />
     <ClCompile Include="Regex.cpp" />
     <ClCompile Include="RegexAutomaton.cpp" />
     <ClCompile Include="RegexData.cpp" />
@@ -121,6 +123,9 @@
     <ClInclude Include="HttpUtility.h" />
     <ClInclude Include="Lazy.h" />
     <ClInclude Include="Locale.h" />
+    <ClInclude Include="My\Regex.h" />
+    <ClInclude Include="My\RegexAutomaton.h" />
+    <ClInclude Include="My\RegexData.h" />
     <ClInclude Include="Pointer.h" />
     <ClInclude Include="Regex.h" />
     <ClInclude Include="RegexAutomaton.h" />
